@@ -1,6 +1,6 @@
 [submodule "libchaos"]
 	path = libchaos
-	url = https://gitlab.com/ChaoticEnigma/libchaos.git
+	url = https://github.com/vortexcore2026/libchaos.git
 	branch = patches/pok3r
 [submodule "nlohmann_json"]
 	path = nlohmann_json

@@ -1,3 +1,12 @@
+# vortexcore2026
+
+Changes made to this fork:
+
+- Defaults to older v1.x branch of the tool which uses C++. (Modern pok3rtool uses python, which seems to be running into issues)
+
+- libchaos now points to github fork with a patch that fixes the build for newer C++ versions (> c++14).
+
+
 # pok3rtool Vortex Keyboard Dev Tool/Library
 
 *Disclaimer: This project comes with no warranty, and may be used for free at your own risk.*
