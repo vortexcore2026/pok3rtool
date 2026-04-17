@@ -6,6 +6,15 @@ Changes made to this fork:
 
 - libchaos now points to github fork with a patch that fixes the build for newer C++ versions (> c++14).
 
+## Building
+
+```sh
+git clone --recursive https://github.com/vortexcore2026/pok3rtool
+mkdir pok3rtool-build
+cd pok3rtool-build
+cmake ../pok3rtool
+make
+```
 
 # pok3rtool Vortex Keyboard Dev Tool/Library
 
@@ -22,12 +31,3 @@ UNUSABLE WITHOUT EXPENSIVE DEVELOPMENT TOOLS. READ THE DOCUMENTATION, POSSIBLY R
 CODE, AND PROCEED AT YOUR OWN RISK.**
 
 [See the wiki for pok3rtool usage, warnings, etc.](https://github.com/pok3r-custom/pok3rtool/wiki)
-
-### Building
-
-    git clone --recursive https://gitlab.com/pok3r-custom/pok3rtool.git
-    mkdir pok3rtool-build
-    cd pok3rtool-build
-    cmake ../pok3rtool
-    make
-
